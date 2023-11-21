@@ -21,6 +21,9 @@ import AdminComplaintRoutes from "./routes/Admin/complaintRoutes.js";
 // notice board routes
 import AdminNoticeRoutes from "./routes/Admin/NoticeRoutes.js";
 import StudentNoticeRoutes from "./routes/Student/NoticeRoutes.js";
+// transaction routes
+import AdminTransRoutes from "./routes/Admin/transRoutes.js";
+
 
 import { verifyToken } from "./middleware/auth.js";
 import { connect } from "http2";
@@ -55,12 +58,15 @@ app.use(AdminComplaintRoutes);
 //notice
 app.use(AdminNoticeRoutes);
 app.use(StudentNoticeRoutes);
+//transaction
+app.use(AdminTransRoutes);
 
 
 
 // MONGOOSE SETUP (firstly connect the database then fire the server)
 const PORT = process.env.PORT || 6001;
-mongoose.connect(process.env.MONGO_URL)
+console.log(process.env.MONGO_URL);
+mongoose.connect("mongodb+srv://ayush760a:%23inlcude<plum>@cluster0.ybsjr37.mongodb.net/MessManager?retryWrites=true&w=majority")
 .then(()=>{
     app.listen(PORT,  ()=>{
         console.log(`server running on port ${PORT}`);

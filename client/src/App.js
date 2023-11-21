@@ -1,9 +1,9 @@
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import Layout from "scenes/layout";
-import HomePage from "scenes/homePage";
-import LoginPage from "scenes/loginPage";
+import Layout from "scenes/layout/index.jsx";
+import HomePage from "scenes/HomePage/index.jsx";
+import LoginPage from "scenes/LoginPage/index.jsx";
 import ComplaintPage from "scenes/complaintPage";
 import MessMenu from "scenes/messMenu";
 

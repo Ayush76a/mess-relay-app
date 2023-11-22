@@ -7,6 +7,7 @@ const UserSchema = new mongoose.Schema(
             required: true,
             min: 2,
             max: 50,
+            required:true
         },
         lastName: {
             type: String,
@@ -18,6 +19,7 @@ const UserSchema = new mongoose.Schema(
             required: true,
             max: 50,
             unique: true,
+            required:true
         },
         password: {
             type: String,

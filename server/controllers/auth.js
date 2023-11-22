@@ -54,7 +54,7 @@ export const login = async (req, res) => {
 };
 
 
-
+// Forgot Password along with its Sub Part Reset Password
 // Forgot Pass controller
 export const forgotPassword= async(req, res) => { 
     // take the email of user 
@@ -105,7 +105,7 @@ export const forgotPassword= async(req, res) => {
        <a href=${resetUrl} clicktracking=off> ${resetUrl} </a>
 
        <p>Regards...</p>
-       <p>Team Ye-Shaam-Mastaani/p>
+       <p>Team Ye-Shaam-Mastaani</p>
     `;
 
      const subject = "Password Reset Request"

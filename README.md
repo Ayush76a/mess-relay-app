@@ -1,9 +1,21 @@
-<h1 align="center">Mess Relay app</h1>
-<p align="center">
+# Mess-Relay app
+<p align="left">
+The Mess Relay App is an innovative mess management system designed to streamline and enhance the daily operations of student mess facilities. It provides a centralized platform for managing notifications, complaints, expenses, and mess menus. Built with a user-friendly interface and secure backend, the app ensures seamless communication between students and administrators, making mess operations efficient and transparent.
 </p>
 
+## Live App
+link : https://messrelay.netlify.app/
+
+## Testing and Dummy User
+Email : user1@gmail.com
+
+Password : user1
+
 ## Demo Video Link:
-  <a href="https://github.com/fvizpal/mess-relay-app">YouTube video link</a>
+  <a href="https://www.youtube.com/watch?v=p3m9kLvWloo&ab_channel=RohanSaini">YouTube video link</a>
+
+## Documentation Link:
+  <a href="https://drive.google.com/file/d/1pGdTbyR7uNbu1ewqKZuHoKM0cT5OAuD2/view?usp=sharing"> Documentation </a>
   
 ## Getting started:
   To get started with the project, you will need to follow these steps:
@@ -18,6 +30,9 @@
 
 ![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
 ![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)&nbsp;
+![material-ui](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)&nbsp;
+
 
 *Backend:*
 
@@ -42,9 +57,9 @@
 - User can update the mess menu.
 
 ## 🚀 More Features to Add-on
-- User can rate their meals, all seperately.
-- User can manage their daily expenses and track their money spent.
-- User can add/update/delete daily orders.
+- Students can rate their meals, all seperately.
+- Admin can manage their daily expenses and track their money spent.
+- Admin can add/update/delete daily orders.
 
 Team Name: ye-shaam-mastani
 
